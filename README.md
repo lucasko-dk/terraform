@@ -17,3 +17,6 @@ Changes to Outputs:
   + vpc                    = "==============================="
   + vpc_cidr_block         = "10.1.0.0/16"
   + vpc_id                 = "unknown"
+
+
+if new services scripts will be added like eks/dynamodb, additioanl source folder should be created in modules folder (refer to ec2,vpc)
