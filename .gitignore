@@ -1,0 +1,4 @@
+*.hcl
+modules/ec2/.terraform/
+modules/vpc/.terraform/
+.terraform/providers/

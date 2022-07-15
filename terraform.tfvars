@@ -1,0 +1,13 @@
+vpc_id                    = "unknown"
+vpc_cidr_block            = "10.1.0.0/16"
+availability_zone         = ["ap-northeast-2a", "ap-northeast-2c"]
+public_subnet_cidr_block  = ["10.1.0.0/20", "10.1.16.0/20"]
+private_subnet_cidr_block = ["10.1.128.0/20", "10.1.144.0/20"]
+bs_ami                    = "ami-0fd0765afb77bcca7"
+bs_instance_type          = "t2.micro"
+bs_subnet_id              = "10.1.0.0/20"
+c9_ami                    = "ami-0d69aeff4c6bc9499"
+c9_instance_type          = "t3.small"
+c9_subnet_id              = "10.1.0.0/20"
+bs_security_group         = "md-sf-sbu-mdk-dev-ec2-bs-mng-sg"
+//bs_vpc_security_group_ids    = "default"
